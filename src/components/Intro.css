@@ -44,15 +44,6 @@
 
 }
 
-.intro img{
-    background-color: transparent;
-    position: absolute;
-    background: none;
-    transform: scale(0.5);
-    top: 8rem;
-    margin: 0;
-    padding: 0;
-}
 
 @keyframes typing {
   from { width: 0 }
