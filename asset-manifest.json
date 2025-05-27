@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pokemonPersonalityQuiz-/static/css/main.1e7f0b40.css",
+    "main.css": "/pokemonPersonalityQuiz-/static/css/main.b28874bb.css",
     "main.js": "/pokemonPersonalityQuiz-/static/js/main.f601772c.js",
     "static/js/453.c09a555b.chunk.js": "/pokemonPersonalityQuiz-/static/js/453.c09a555b.chunk.js",
     "static/media/background.png": "/pokemonPersonalityQuiz-/static/media/background.5bce7945930d87b2432b.png",
     "static/media/pikachu.gif": "/pokemonPersonalityQuiz-/static/media/pikachu.5ab51e5469f53d8deef2.gif",
     "index.html": "/pokemonPersonalityQuiz-/index.html",
-    "main.1e7f0b40.css.map": "/pokemonPersonalityQuiz-/static/css/main.1e7f0b40.css.map",
+    "main.b28874bb.css.map": "/pokemonPersonalityQuiz-/static/css/main.b28874bb.css.map",
     "main.f601772c.js.map": "/pokemonPersonalityQuiz-/static/js/main.f601772c.js.map",
     "453.c09a555b.chunk.js.map": "/pokemonPersonalityQuiz-/static/js/453.c09a555b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e7f0b40.css",
+    "static/css/main.b28874bb.css",
     "static/js/main.f601772c.js"
   ]
 }
