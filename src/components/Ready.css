@@ -1,0 +1,33 @@
+.ready{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.ready h1 {
+    color: rgb(209, 37, 157);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: none;
+    background-color: transparent;
+}   
+
+.ready button{
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    border: rgb(209, 37, 157) solid 2px;
+    background-color: rgb(209, 37, 157);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ready button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(209, 37, 157);
+    transform: scale(1.05);
+}

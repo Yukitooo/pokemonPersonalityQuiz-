@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cherry Bomb One", system-ui;
+  background-image: url("assets/background.png");
+}
+
+.content{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+  background: none; 
+}

@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.resultContent{
+    width: 60vw;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 3rem;
+    display: flex;
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.leftSide{
+    background: none;
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.leftSide img{
+    position:absolute;
+    background: none;
+    background-color: transparent;
+    top: 140px;
+    width: 200px;
+}
+
+.leftSideContent{
+    background-color: transparent;
+    background: none;
+}
+
+.leftSide p{
+    text-align: center;
+}
+
+.leftSide h1{
+    border-bottom: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.rightSide{
+    background-color: transparent;
+    background: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 2rem;
+}
+
+
+.rightSide p{
+    background-color: transparent;
+    background: none;
+}
+
+@media (max-width: 768px) {
+    .resultContent{
+        width: 90vw;
+        height: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 1rem 1rem 5rem 1rem;
+        
+    }
+    .leftSide, .rightSide{
+        width: 95%;
+        height: auto;
+        text-align: center;
+    }
+
+    .leftSide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 5rem;
+        border-right: none !important;
+    }
+    .leftSide img{
+        width: 150px;
+        top: -10px;
+        position: relative;
+    }
+
+    .tagline{
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        border-bottom: 2px dotted black;
+        border-top: 2px dotted black;
+        width: 100%;
+    }
+
+    .rightSide{
+        gap: 1rem;
+        font-size: 0.7em;
+    }
+}
