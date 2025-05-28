@@ -17,7 +17,7 @@ Answer a series of playful questions and discover whether you're fiery 🔥, dre
 
 ## 🚀 Live Demo
 
-Coming soon!
+https://yukitooo.github.io/pokemonPersonalityQuiz-/
 
 ---
 
