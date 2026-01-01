@@ -27,3 +27,7 @@ https://yukitooo.github.io/pokemonPersonalityQuiz-/
 - **CSS** for styling & animation
 - **JavaScript** for logic
 - **useState + useEffect** for quiz state management-
+
+## Output Example
+<img width="1068" height="512" alt="image" src="https://github.com/user-attachments/assets/fa310257-f240-48dd-a431-17709d5cb0bd" />
+
