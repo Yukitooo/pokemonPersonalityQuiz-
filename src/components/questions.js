@@ -11,7 +11,7 @@ const questions = [
   {
     question: "How do you handle problems?",
     options: [
-      { text: "Think it through calmly", type: "Psychic" },
+      { text: "Think it through calmly", type: "Normal" },
       { text: "Face it head-on", type: "Fighting" },
       { text: "Avoid it completely", type: "Ghost" },
       { text: "Make a joke and move on", type: "Fairy" }
@@ -32,7 +32,7 @@ const questions = [
       { text: "Loyalty", type: "Normal" },
       { text: "Curiosity", type: "Psychic" },
       { text: "Humor", type: "Fairy" },
-      { text: "Ambition", type: "Fire" }
+      { text: "Ambition", type: "Fighting" }
     ]
   },
   {
@@ -56,7 +56,7 @@ const questions = [
   {
     question: "You’re the type to...",
     options: [
-      { text: "Help a friend no matter what", type: "Fairy" },
+      { text: "Help a friend no matter what", type: "Fighting" },
       { text: "Lead the group", type: "Fire" },
       { text: "Stay quiet but observant", type: "Psychic" },
       { text: "Crack jokes all day", type: "Normal" }
@@ -114,6 +114,24 @@ const questions = [
       { text: "Meditation", type: "Psychic" },
       { text: "Gaming", type: "Electric" },
       { text: "Socializing", type: "Fairy" }
+    ]
+  },
+  {
+    question: "Plans change at the last minute. You...",
+    options: [
+      { text: "Turn it into an adventure", type: "Flying" },
+      { text: "Stay calm and go with the flow", type: "Water" },
+      { text: "Build a new plan immediately", type: "Electric" },
+      { text: "Pause and find a steady path", type: "Grass" }
+    ]
+  },
+  {
+    question: "Which role do you naturally take in a team?",
+    options: [
+      { text: "The determined protector", type: "Fighting" },
+      { text: "The dependable organizer", type: "Normal" },
+      { text: "The quiet observer", type: "Ghost" },
+      { text: "The patient supporter", type: "Grass" }
     ]
   }
 ];

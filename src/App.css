@@ -1,16 +1,63 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Cherry Bomb One", system-ui;
-  background-image: url("assets/background.png");
 }
 
-.content{
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  color: #49232d;
+  font-family: "Poppins", system-ui, sans-serif;
+  background-image: url("assets/background.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+button {
+  font: inherit;
+}
+
+.content {
+  position: relative;
+  isolation: isolate;
   display: flex; 
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: transparent;
-  background: none; 
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: clamp(1rem, 3vw, 2.5rem);
+}
+
+.content::before {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.72), transparent 35%),
+    linear-gradient(135deg, rgba(255, 235, 240, 0.34), rgba(255, 248, 222, 0.48));
+  content: "";
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #202020;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
